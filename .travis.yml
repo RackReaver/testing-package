@@ -9,7 +9,6 @@ install:
 # Run tests
 script:
   - pytest
-  - python setup.py sdist bdist_wheel
 
 deploy:
   provider: pypi
@@ -17,6 +16,7 @@ deploy:
   password:
     secure: "q+RLPK7wUDZNnYMedTahLzm8t+lkMRa11/BlzgvykxwWq7vAO1tZjRtUWsqFD/qZh/GGyMFBjxGTEQJV1+mQ2JgcL2G4uXeZIvCAJws0iYL7maj9HM4HgBXYSOVf+dGK+cdrgd9ruqHYV+4hA7xPR22kgNEM0u6+/YdLlubdldTbMzd8itRC1sheKXSa+Gv3lV2GvbzLi3kjDC/MBCQjNrW6zJR6wt2dTlOSYiuIc4yOO+14qPt3t7lBho+j+6Fu4ylT2pzO/8loCW77oKlAWtaPzNJIEUTWT0cN0F7l0LekfCSC9rIGhAcaqoQuMdjzrmcr9pwUt47rfJ7h7ev+laWJ5Zjrxc+Ia629R9LCLY3wHsn28Z0s9ZnG6CMKR2qlYhJpCMSf0WGADSkWspn06GL1PU/Xz5TtdLIQFC/WzXdz42gyDh2nEJ6Z2qAxOWEB83NrBcypPqZgNr8housl9csA69gwIZoSpJ4JeVj2bZI6K5JYlaYM9M2dR5lkp50vyvGZYixlEdAjQvWmfWMcOhi143oAteSYMMz6toe1fBx60KhGn4vsWtVK1SSlZR2kZXSl1IRENbTpt8POjFhm9tdZTO6iszmD+MaorGpLzGCh26l/9vJmwFqvTwHof24LsEkIuYaoM5euBWTRHZ2w30hPbNWOgHwpwBRGmK4IB2A="
   server: https://test.pypi.org/legacy/
+  distributions: sdist bdist_wheel
   on:
     tags: true
     repo: RackReaver/testing-package
