@@ -10,6 +10,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 setup(
     name='testing-package',
     version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
     url='https://github.com/RackReaver/testing-package',
     license='Apache License',
     author='Matt Ferreira',
