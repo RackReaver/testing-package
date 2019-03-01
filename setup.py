@@ -4,7 +4,7 @@ import versioneer
 # read the contents of your README file
 from os import path
 this_directory = path.abspath(path.dirname(__file__))
-with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
     README = f.read()
 
 setup(
@@ -17,7 +17,6 @@ setup(
     author_email='rackreaver@gmail.com',
     description='This is stricktly for testing purposes.',
     long_description=README,
-    long_description_content_type='text/markdown',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
