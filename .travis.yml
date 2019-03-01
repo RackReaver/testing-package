@@ -15,6 +15,6 @@ deploy:
   user: RackReaver
   password:
     secure: "SIW5vcym2yAAEzdU+hsacGP2kVMBHM8KPa+xmYdTg4zgDuKExVTSjAbPZulFAgZLU6P4sMCmIJioRw8dcAzY/4Wg6Vv4ZkDXCzBf9Hg/LDh/gI+LVGU5yN2hHMin1DI/ruXiS2mnpjRXA8miEj/Pz7tD4uBzZ8MpBUWkmPAXjvA8fibFZCJWyz7QxhkedErSCbgz8KcS4TzKLbop9t3J6UZlcOLKLD2b9zbJOQfimVCXPiKx6FPvBIBM912bMIxTCyoi+FXMI/tjqmKSogXLbtUUijJOerOVb9yJQj25RxN0Mf40bb4t2xy0hcQdPVNhCsti+sidMcahC7oMSNrb6Ou+A+Cha0qN/HNwnj/0It2bnvqHK+fmZohz80U3zBWc1vD5TStdaGq9KAQcHHdmdCIiQT0I1fvbB/OmrmUmjWpETwKxFPZFSsGSoLOvP9VFE0lU8u/DswvtWkakTfgXvRYh2utApA9uwwiIzDGRS1U+MFMkgycAidhRqyCm3mDUG0AWVXUtPJZbo6xiHfYXtz9C0KXeYwiNIlyIIOWBl/eHfYPFGBPbgQhzRrYN3M+Z7JMxwMklMw0Zwm0V0Xn71IaOVCt2HMz+3pQJXzTh4F5AoJSMWcXNBGhjiJvg7FQSQkVFjrR1j5+/C+9Lbpt5NboprfJ5eo/acGV01CyqbqU="
-  server: https://test.pypi.org/legacy/
+  server: https://test.pypi.org/
   on:
     tags: true
