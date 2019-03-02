@@ -14,3 +14,8 @@ def test_subtract():
     assert script.subtract(6, 2) == 4
     assert script.subtract(1, 2) == -1
     assert script.subtract(-1, 2) == -3
+
+def test_multiply():
+    assert script.multiply(2, 2) == 4
+    assert script.multiply(0, 2) == 0
+    assert script.multiply(1, 2) == 2 
