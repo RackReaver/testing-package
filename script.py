@@ -15,3 +15,7 @@ def add(num1, num2):
 def subtract(num1, num2):
     """Subtracts two numbers"""
     return num1 - num2
+
+def multiply(num1, num2):
+    """Multiplies two numbers"""
+    return num1 * num2
